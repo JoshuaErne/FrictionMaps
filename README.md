@@ -1,6 +1,6 @@
 # FrictionMaps
 #### Tire-Road Friction Estimation for the [F1/10 platform](https://f1tenth.org/).
-In this repository, we implement a three-stage kalman filter for state estimation and tire-road friction coefficient estimation. For more details on the theoretical implementation of this filtering hierarchy, please consult the [report](.Vehicle_State_Estimation_and_Friction_Grids.pdf).
+In this repository, we implement a three-stage kalman filter for state estimation and tire-road friction coefficient estimation. For more details on the theoretical implementation of this filtering hierarchy, please consult the [report](./Vehicle_State_Estimation_and_Friction_Grids.pdf).
 
 # Running the Code
 This repository implements two main pieces of code. The first script you can run is the `stateLogger.py` ROS node. This ROS node runs in realtime on the F1/10th race car and logs all relevant states (and more) to corresponding timestamped folders and accordingly named csv files. To add this as a node to your workspace, simply clone this repository and copy the stateEstimation folder to your ROS workspace. To learn more about the output of the stateLogger, consult the [datasets](./DataSets) section of this repository.
